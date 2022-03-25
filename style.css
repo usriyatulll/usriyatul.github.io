@@ -1,0 +1,207 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:antiquewhite;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: serif;
+    color: whitesmoke;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: burlywood;
+    z-index: 1;
+    border-bottom: 2px solid whitesmoke;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: whitesmoke;
+    font-family:"sans-serif";
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img{
+    margin-top: 50px;
+ 
+} 
+
+h2 {
+    font-size: 45px;
+    border-color: ;
+    font-weight: 800;
+    font-family: "Sans-serif";
+    margin-bottom: 20px;
+    color: #203239;
+    width: 100%;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+p {
+    font-size: 23px;
+    font-family: "serif";
+    margin: 10px 20px 10px 20px;
+    padding: 10px 0px 10px 0px;
+    line-height: 30px;
+    color: black;
+    text-align: justify;
+} 
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.pendidikan-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-pendidikan {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-pendidikan img {
+    width: 70%;
+}
+
+.kartu-pendidikan p {
+    font-family: 'serif';
+    font-weight: 500;
+    font-size: 20 px;
+    text-align: center;
+    color: black;
+}
+
+.jadwaltengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tabelkuliah,th,td {
+    border: 1px solid;
+    width: 8%;
+}
+
+.tabelkuliah {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.aktivitastengah {
+    width: 100%;
+}
+
+.aktivitasjudul{
+    text-align: left;
+}
+
+.aktivitas-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.kartu-aktivitas {
+    width: 20%;
+    margin: 20px 20px 20px 20px;
+}
+
+.kartu-aktivitas p{
+    font-family: 'serif';
+    font-weight: 500;
+    font-size: 30 px;
+    text-align: center;
+    color: black;
+    width: 100%;
+}
+
+#contact {
+    background:blanchedalmond;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 50%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'sans-serif';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #203239;
+    width: 100%;
+    line-height: 50px;
+}
